@@ -72,3 +72,9 @@ CICDAranda/CICDAranda/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Index.razor
 CICDAranda/CICDAranda/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/MainLayout.razor.g.cs
 CICDAranda/CICDAranda/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/NavMenu.razor.g.cs
 CICDAranda/CICDAranda/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/SurveyPrompt.razor.g.cs
+CICDAranda/CICDArandaTest/bin/Debug/netcoreapp3.1/CICDArandaTest.dll
+CICDAranda/CICDArandaTest/bin/Debug/netcoreapp3.1/CICDArandaTest.pdb
+CICDAranda/CICDArandaTest/bin/Debug/netcoreapp3.1/nunit_random_seed.tmp
+CICDAranda/CICDArandaTest/obj/Debug/netcoreapp3.1/CICDArandaTest.csprojAssemblyReference.cache
+CICDAranda/CICDArandaTest/obj/Debug/netcoreapp3.1/CICDArandaTest.dll
+CICDAranda/CICDArandaTest/obj/Debug/netcoreapp3.1/CICDArandaTest.pdb
