@@ -36,9 +36,8 @@ namespace CICDArandaTestSelenium
         [Test, Category("Smoke Testing")]
         public void TestMethod2()
         {
-
-            IWebElement emailTextField = driver.FindElement(By.XPath(".//*[@id='email']"));
-            emailTextField.SendKeys("Aranda Software");
+            IWebElement nameTextField = driver.FindElement(By.XPath(".//*[@id='materialContactFormName']"));
+            nameTextField.SendKeys("Aranda Software");
         }
     }
 }

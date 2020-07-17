@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CICDArandaTestSelenium.Base
-{
+{ 
     public class BaseClass
     {
         public IWebDriver driver;
