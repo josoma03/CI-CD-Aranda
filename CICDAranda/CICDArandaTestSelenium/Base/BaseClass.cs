@@ -16,8 +16,7 @@ namespace CICDArandaTestSelenium.Base
         public void Open()
         {
             driver = new ChromeDriver();
-            driver.Manage().Window.Maximize();
-            driver.Url = "https://www.facebook.com/";
+            driver.Url = "https://cicdaranda.azurewebsites.net/";
         }
 
         [TearDown]

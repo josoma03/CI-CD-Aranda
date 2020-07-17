@@ -9,15 +9,16 @@ namespace CICDArandaTest
         {
         }
 
-        [Test]
+        [Test, Category("Unit")]
         public void Test1()
         {
             Assert.Pass();
         }
-        [Test]
+        [Test, Category("Unit")]
         public void Test2()
         {
-            Assert.Pass();
+            int age = 51;
+            Assert.That(age, Is.LessThan(50), "Edad mayor a 50");
         }
     }
 }

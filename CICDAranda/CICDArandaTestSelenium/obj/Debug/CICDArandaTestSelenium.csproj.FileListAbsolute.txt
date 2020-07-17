@@ -16,3 +16,4 @@ D:\Aranda Software\CI-CD-Aranda\CICDAranda\CICDArandaTestSelenium\obj\Debug\CICD
 D:\Aranda Software\CI-CD-Aranda\CICDAranda\CICDArandaTestSelenium\obj\Debug\CICDArandaTestSelenium.csproj.CopyComplete
 D:\Aranda Software\CI-CD-Aranda\CICDAranda\CICDArandaTestSelenium\obj\Debug\CICDArandaTestSelenium.dll
 D:\Aranda Software\CI-CD-Aranda\CICDAranda\CICDArandaTestSelenium\obj\Debug\CICDArandaTestSelenium.pdb
+D:\Aranda Software\CI-CD-Aranda\CICDAranda\CICDArandaTestSelenium\obj\Debug\CICDArandaTestSelenium.csprojAssemblyReference.cache

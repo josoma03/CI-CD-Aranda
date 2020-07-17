@@ -16,9 +16,16 @@ namespace CICDArandaTestSelenium
         public void TestMethod()
         {
             
-            IWebElement emailTextField = driver.FindElement(By.XPath(".//*[@id='email']"));
-            emailTextField.SendKeys("Aranda Software");
+            IWebElement nameTextField = driver.FindElement(By.XPath(".//*[@id='materialContactFormName']"));
+            IWebElement emailTextField = driver.FindElement(By.XPath(".//*[@id='materialContactFormEmail']"));
+            IWebElement noteTextField = driver.FindElement(By.XPath(".//*[@id='materialContactFormMessage']"));
             
+            nameTextField.SendKeys("Jhonattan Solarte");
+            emailTextField.SendKeys("jhonattan.solarte@arandasoft.com");
+            noteTextField.SendKeys("La vivienda social en México, es un tema polémico en donde intervienen sobre todo factores sociales, económicos y políticos. Pero al mismo tiempo es una condición materializada en donde se pueden observar elementos físicos a partir de los cuales se puede tener una discusión y se pueden tomar decisiones de diseño futuras. ");
+
+
+
 
             // TODO: Add your test code here
             var answer = 42;

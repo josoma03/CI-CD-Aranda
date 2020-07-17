@@ -1,7 +1,73 @@
 ﻿@page "/"
+    <div style="background-color: #33058d; text-align:center">
+        <img class="mk-sticky-logo " title="Gestión de IT" alt="Gestión de IT" src="https://arandasoft.com/wp-content/uploads/2019/09/logo-aranda-web.png">
+    </div>
+    <div style="text-align:center">
+        <div style="background-color:#1be2aa; width: 30%;">
+            <img src="https://arandasoft.com/wp-content/uploads/2018/05/aranda-field-service-1.png" alt="aranda-field-service" style="width: 100%" />
+        </div>
+    </div>
 
-<h1>Hola mundo cruel</h1>
 
-Welcome to your new app Aranda.
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+    Ten siempre disponible al especialista indicado para atender un servicio en campo
+
+    Controla el ciclo de vida de las órdenes de servicio que tu organización atiende y administra los servicios en su totalidad desde el proceso de solicitud hasta su ejecución y cierre.
+
+
+    <!-- Material form contact -->
+    <div class="card" style="width:20%">
+
+        <h5 class="card-header info-color white-text text-center py-4">
+            <strong>Crear especialista</strong>
+        </h5>
+
+        <!--Card content-->
+        <div class="card-body px-lg-5 pt-0">
+
+            <!-- Form -->
+            <form class="text-center" style="color: #757575;" action="#!">
+
+                <!-- Name -->
+                <div class="md-form mt-3">
+                    <input type="text" id="materialContactFormName" class="form-control">
+                    <label for="materialContactFormName">Nombre</label>
+                </div>
+
+                <!-- E-mail -->
+                <div class="md-form">
+                    <input type="email" id="materialContactFormEmail" class="form-control">
+                    <label for="materialContactFormEmail">Correo electrónico</label>
+                </div>
+
+                <!-- Subject -->
+                <span>Tipo de transporte</span>
+                <select class="mdb-select" id="cmbTransporte">
+                    <option value="">Carro</option>
+                    <option value="1">Motocicleta</option>
+                    <option value="2">Bicicleta</option>
+                    <option value="3">Ninguno</option>
+                </select>
+
+                <!--Message-->
+                <div class="md-form">
+                    <textarea id="materialContactFormMessage" class="form-control md-textarea" rows="3"></textarea>
+                    <label for="materialContactFormMessage">Observaciones</label>
+                </div>
+
+                <!-- Copy -->
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="materialContactFormCopy">
+                    <label class="form-check-label" for="materialContactFormCopy">Acepta los términos y condiciones</label>
+                </div>
+
+                <!-- Send button -->
+                <button class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-4 waves-effect" type="submit">Guardar</button>
+
+            </form>
+            <!-- Form -->
+
+        </div>
+
+    </div>
+    <!-- Material form contact -->
