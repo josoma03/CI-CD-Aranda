@@ -2,10 +2,12 @@
 // See documentation : https://github.com/nunit/docs/wiki/NUnit-Documentation
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using CICDArandaTestSelenium.Base;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Support.UI;
 
 namespace CICDArandaTestSelenium
 {
@@ -13,19 +15,17 @@ namespace CICDArandaTestSelenium
     public class TestClass: BaseClass
     {
         [Test, Category("Regression Testing")]
+        [Author("Jhonattan Solarte", "jhonattan.solarte@arandasoft.com")]
+        [Description("Validación de campos básicos")]
         public void TestMethod()
         {
-            
+            Thread.Sleep(1000);
             IWebElement nameTextField = driver.FindElement(By.XPath(".//*[@id='materialContactFormName']"));
             IWebElement emailTextField = driver.FindElement(By.XPath(".//*[@id='materialContactFormEmail']"));
-            IWebElement noteTextField = driver.FindElement(By.XPath(".//*[@id='materialContactFormMessage']"));
-            
+
             nameTextField.SendKeys("Jhonattan Solarte");
             emailTextField.SendKeys("jhonattan.solarte@arandasoft.com");
-            noteTextField.SendKeys("La vivienda social en México, es un tema polémico en donde intervienen sobre todo factores sociales, económicos y políticos. Pero al mismo tiempo es una condición materializada en donde se pueden observar elementos físicos a partir de los cuales se puede tener una discusión y se pueden tomar decisiones de diseño futuras. ");
-
-
-
+            
 
             // TODO: Add your test code here
             var answer = 42;
@@ -34,11 +34,15 @@ namespace CICDArandaTestSelenium
 
 
         [Test, Category("Smoke Testing")]
+        [Author("Jhonattan Solarte", "jhonattan.solarte@arandasoft.com")]
+        [Description("Seleccionar combobox transporte por Index")]
         public void TestMethod2()
         {
-            IWebElement nameTextField = driver.FindElement(By.XPath(".//*[@id='materialContactFormName']"));
-            nameTextField.SendKeys("Aranda Software");
+            IWebElement cmbTransporte = driver.FindElement(By.XPath(".//*[@id='cmbTransporte']"));
+            SelectElement element = new SelectElement(cmbTransporte);
+            element.SelectByIndex(2);
         }
+
     }
 }
  

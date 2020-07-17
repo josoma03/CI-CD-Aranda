@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\BaseClass.cs" />
+    <Compile Include="TestLinks.cs" />
     <Compile Include="TestClass.cs" />
   </ItemGroup>
   <ItemGroup>
